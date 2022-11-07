@@ -5,7 +5,7 @@ def play_game(name):
     #throw ball
     count = 0
     while True:
-        choice = input("throw, fake throw, no thanks")
+        choice = input("Bark! what would you like to do ? throw, fake throw, leave ")
         if choice.lower() == "throw":
             count += 1
             time.sleep(2)
@@ -15,7 +15,7 @@ def play_game(name):
             print("    __             ")
             print("      (___()'`;🎾  ")
             print("      /,    /`     ")
-            print("      \\''--\\      ")
+            print("      \\''--\\     ")
             time.sleep(2)
 
             if count == 3:
@@ -30,8 +30,8 @@ def play_game(name):
             print("Do you think this is a game, " + name + "?")
             time.sleep(2)
             print("whoops... haha yes, we are playing a game!")
-        elif choice.lower() == "no thanks" or "no" or "nty":
-            print("Why not?")
+        elif choice.lower() == "leave":
+            print("Oh, okay... ")
             break
         else:
             print("not sure what you mean, but please play with me ):")
@@ -134,7 +134,6 @@ while True:
         print("because I'm a good boy")
         time.sleep(2)
         print(".... a very veeeeeeeeerry good boy")
-        time.sleep(2)
         print("       -=====-     ")
         print("        .-`-.      ")
         print("       /|6 6|\     ")
@@ -142,7 +141,7 @@ while True:
         print("       _/ ^ \_     ")
         print("      (/ /^\ \)-'  ")
         print("       ""' '""     ")
-        time.sleep(4)
+        time.sleep(3)
     #code for none
     elif topic.lower() == "none" or "no" or "nothing":
         print("Oh, okay!")
